@@ -17,7 +17,7 @@ module main(
             4'b0111: {a, b, c, d, e, f, g} = 7'b1110000;
             4'b1000: {a, b, c, d, e, f, g} = 7'b1111111;
             4'b1001: {a, b, c, d, e, f, g} = 7'b1111011;
-  	        default: {a, b, c, d, e, f, g} = 7'b0000000;
+  	        default: {a, b, c, d, e, f, g} = 7'bxxxxxxx;
         endcase
     end
 

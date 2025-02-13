@@ -14,6 +14,5 @@ module main(
     assign e = (~y & ~w) | (z & ~w) & ~invalid_input;
     assign f = (~z & ~w) | (y & ~z) | (y & ~w) | x & ~invalid_input;
     assign g = (~y & z) | (y & ~z) | (z & ~w) | x & ~invalid_input;
- 
 
 endmodule
